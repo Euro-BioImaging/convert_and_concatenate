@@ -35,6 +35,8 @@ def convert_and_concatenate(source_dir,
                             nanny = True,
                             overwrite = False
                             ):
+    source_dir = Path(source_dir)
+    dest_dir = Path(dest_dir)                              
     ### func params
     cvt = Converter(n_jobs = n_jobs).set_slurm_params(cores = cores, memory = memory, processes = processes)
     if overwrite:
