@@ -1,4 +1,4 @@
-Installation: \
+Installation:
 ```bash
 source /g/cba/miniconda3/etc/profile.d/conda.sh 
 module load Mamba 
