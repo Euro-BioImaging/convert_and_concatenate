@@ -28,9 +28,9 @@ def convert_and_concatenate(source_dir,
                             chunk_x=1024,
                             scale_factor = None,
                             ### slurm params
-                            cores = 4,
-                            memory = "2GB",
-                            n_jobs = 128,
+                            cores = 16,
+                            memory = "32GB",
+                            n_jobs = 64,
                             processes = 1,
                             nanny = True,
                             overwrite = False
