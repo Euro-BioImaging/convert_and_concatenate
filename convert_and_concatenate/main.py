@@ -7,7 +7,7 @@ conda activate ome_zarr_pyramid_slurm
 pip install git+https://github.com/Euro-BioImaging/ome_zarr_pyramid.git@slurm
 
 """
-import os, shutil, glob
+import os, shutil, glob, fire
 from pathlib import Path
 from ome_zarr_pyramid.process.converters import Converter
 from ome_zarr_pyramid import Aggregative
