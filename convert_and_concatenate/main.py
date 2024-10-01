@@ -14,8 +14,8 @@ from ome_zarr_pyramid import Aggregative
 from ome_zarr_pyramid.utils import metadata_utils as metautils
 from ome_zarr_pyramid.core.pyramid import Pyramid
 
-def convert_and_concatenate(source_dir,
-                            dest_dir,
+def convert_and_concatenate(source_dir: (str, Path),
+                            dest_dir: (str, Path),
                             ### func params
                             axis='z',
                             ### Metadata for the new dimension
